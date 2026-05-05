@@ -1,0 +1,18 @@
+t=2026-05-05T21:07:17+0800 lvl=info msg="no configuration paths supplied"
+t=2026-05-05T21:07:17+0800 lvl=info msg="using configuration at default config path" path=C:\\Users\\yipeo\\AppData\\Local\\ngrok\\ngrok.yml
+t=2026-05-05T21:07:17+0800 lvl=info msg="open config file" path=C:\\Users\\yipeo\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+t=2026-05-05T21:07:17+0800 lvl=info msg="FIPS 140 mode" enabled=false
+t=2026-05-05T21:07:17+0800 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2026-05-05T21:07:19+0800 lvl=eror msg="failed to reconnect session" obj=tunnels.session err="authentication failed: Running the agent with an http/s proxy is a Pay-as-you-go feature. If this is unexpected, verify that there is no proxy_url value in your ngrok configuration file and that the http_proxy environment variable is not set.\n\nIf you need this capability, upgrade to a Pay-as-you-go plan at: https://dashboard.ngrok.com/billing/choose-a-plan\r\n\r\nERR_NGROK_9009\r\n"
+t=2026-05-05T21:07:19+0800 lvl=eror msg="session closing" obj=tunnels.session err="authentication failed: Running the agent with an http/s proxy is a Pay-as-you-go feature. If this is unexpected, verify that there is no proxy_url value in your ngrok configuration file and that the http_proxy environment variable is not set.\n\nIf you need this capability, upgrade to a Pay-as-you-go plan at: https://dashboard.ngrok.com/billing/choose-a-plan\r\n\r\nERR_NGROK_9009\r\n"
+t=2026-05-05T21:07:19+0800 lvl=info msg="received stop request" obj=app stopReq="{err:{Remote:true Inner:{Inner:0x84e9ba9a530}} restart:false}"
+t=2026-05-05T21:07:19+0800 lvl=eror msg="terminating with error" obj=app err="authentication failed: Running the agent with an http/s proxy is a Pay-as-you-go feature. If this is unexpected, verify that there is no proxy_url value in your ngrok configuration file and that the http_proxy environment variable is not set.\n\nIf you need this capability, upgrade to a Pay-as-you-go plan at: https://dashboard.ngrok.com/billing/choose-a-plan\r\n\r\nERR_NGROK_9009\r\n"
+t=2026-05-05T21:07:19+0800 lvl=crit msg="command failed" err="authentication failed: Running the agent with an http/s proxy is a Pay-as-you-go feature. If this is unexpected, verify that there is no proxy_url value in your ngrok configuration file and that the http_proxy environment variable is not set.\n\nIf you need this capability, upgrade to a Pay-as-you-go plan at: https://dashboard.ngrok.com/billing/choose-a-plan\r\n\r\nERR_NGROK_9009\r\n"
+ERROR:  authentication failed: Running the agent with an http/s proxy is a Pay-as-you-go feature. If this is unexpected, verify that there is no proxy_url value in your ngrok configuration file and that the http_proxy environment variable is not set.
+t=2026-05-05T21:07:19+0800 lvl=info msg="no more state changes" obj=tunnels.session
+ERROR:  
+ERROR:  If you need this capability, upgrade to a Pay-as-you-go plan at: https://dashboard.ngrok.com/billing/choose-a-plan
+ERROR:  
+ERROR:  ERR_NGROK_9009
+ERROR:  https://ngrok.com/docs/errors/err_ngrok_9009
+ERROR:  

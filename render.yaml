@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: resume-app
+    runtime: node
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        value: sk-3d8e514edb1546c1a28813bbb73a0f96
